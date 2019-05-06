@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="demo02.css">
+<style>
+    p{color: green;}
+    /*内部样式*/
+    #nav{
+        position: fixed;
+        top: 0px;
+        left: 300px;
+
+    }
+    #content1{
+        width: 500px;
+        height: 800px;
+        background-color: green;
+    }
+    #content2{
+        width: 500px;
+        height: 800px;
+        background-color: pink;
+    }
+    #content3{
+        width: 500px;
+        height: 800px;
+        background-color: yellow;
+    }
+</style>
+
+
+<body>
+
+<a href="新的一页.html">新的一页</a>
+<div id="nav">
+    <a href="#box1">第一部分</a>
+    <a href="#box2">第二部分</a>
+    <a href="#box3">第三部分</a>
+</div>
+<h1 id="box1">第一部分内容</h1>
+<div id="content1"></div>
+<h1 id="box2">第二部分内容</h1>
+<div id="content2"></div>
+<h1 id="box3">第三部分内容</h1>
+<div id="content3"></div>
+<p style="color: chocolate">内联样式</p>
+<!--内联样式>内部样式>外部样式-->
+</body>
+</html>
